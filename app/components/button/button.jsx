@@ -1,4 +1,5 @@
 "use client";
+
 import ButtonType from "./buttonType";
 
 export default function Button() {

@@ -5,7 +5,7 @@ import Type from "./Type";
 export default function Content() {
   return (
     <>
-      <div className="relative z-10 flex h-72 min-h-[34rem]">
+      <div className="relative z-10 flex h-72 min-h-[520px]">
         <div className="flex-1 text-7xl background">
           <pre>The Future</pre>
           <pre>     of Tomorrow</pre>
