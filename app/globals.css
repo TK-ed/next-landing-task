@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
+:root {
   --bg: #0d0c22;
   --bgSoft: #2d2b42;
   --text: white;
@@ -10,15 +10,15 @@
   --btn: #3673fd;
 }
 
-body{
-  background-color: var(--bg);
+* {
   color: var(--text);
-  min-height: 46rem;
+  /* background-color: var(--bg); */
+
 }
 
-button:hover {
-  background-color: white;
-  color: var(--textSoft);
+body {
+  background-color: var(--bg);
+  color: var(--text);
 }
 
 .background {
