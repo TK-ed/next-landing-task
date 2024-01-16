@@ -1,8 +1,11 @@
 import mongoose from 'mongoose';
+import * as dotenv from 'dotenv'
+dotenv.config()
 
 export async function connect() {
     try {
-        mongoose.connect("mongodb+srv://tked:tked123@testserver.dg48d5r.mongodb.net/?retryWrites=true&w=majority");
+        const uri = process.env.NEXT_PUBLIC_MONG_URI
+        mongoose.connect(uri);
         const connection = mongoose.connection;
 
         connection.on('connected', () => {
