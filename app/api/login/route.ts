@@ -21,6 +21,7 @@ export async function POST(req: NextRequest) {
     if (!user) {
       return NextResponse.json({
         error: "User doesn't exist",
+        status: 400,
       });
     }
 
@@ -34,6 +35,7 @@ export async function POST(req: NextRequest) {
     } else {
       return NextResponse.json({
         error: "Incorrect password",
+        status: 401,
       });
     }
   } catch (error) {
