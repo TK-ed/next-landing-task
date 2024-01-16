@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <div className="bg-gray-100/2">
+    <div>
       <div className="container flex flex-col items-center px-5 py-6 mx-auto sm:flex-row">
         <a className="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start">
           <IoGameController size={20} />
