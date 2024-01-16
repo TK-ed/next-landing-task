@@ -31,17 +31,17 @@ const Modal2 = ({ modalOpen, closeModal }) => {
     }
   }, [modalOpen]);
   
-  useEffect(() => {
-    if (
-      user.email.length > 0 &&
-      user.password.length > 0 &&
-      user.username.length > 0
-    ) {
-      console.log('OK');
-    } else {
-      console.log('NOT OK');
-    }
-  }, [user]);
+  // useEffect(() => {
+  //   if (
+  //     user.email.length > 0 &&
+  //     user.password.length > 0 &&
+  //     user.username.length > 0
+  //   ) {
+  //     console.log('OK');
+  //   } else {
+  //     console.log('NOT OK');
+  //   }
+  // }, [user]);
 
   return (
     <dialog

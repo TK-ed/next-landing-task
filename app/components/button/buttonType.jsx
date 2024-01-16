@@ -1,6 +1,4 @@
-// 'use client'
 import { useState } from "react";
-// import Modal from "../modals/signup_modal";
 import Modal2 from "../modals/modal";
 
 const ButtonType = () => {
