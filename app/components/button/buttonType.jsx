@@ -26,7 +26,7 @@ const ButtonType = () => {
       </button>
       <button
         onClick={() => setOpenModal(true)}
-        className="px-4 py-2 ml-4 text-lg text-gray-700 bg-gray-100 border-0 rounded-2xl focus:outline-none hover:bg-purple-400 hover:text-white"
+        className="px-4 py-2 ml-4 text-lg text-gray-700 bg-gray-100 border-0 rounded-2xl focus:outline-none hover:text-white hover:bg-orange-400"
       >
         Join as{" "}
         <pre className="text-[var(--bgSoft)] hover:text-[var(--bgSoft)]">

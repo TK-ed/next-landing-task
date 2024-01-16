@@ -52,7 +52,7 @@ const Modal2 = ({ modalOpen, closeModal }) => {
       <div className="modal-box">
         <Form user={user} setUser={setUser} />
         <button
-          className="mx-auto mt-4 btn btn-ghost btn-primary ml-[12rem] hover:bg-orange-400 "
+          className="mx-auto mt-4 btn btn-outline ml-[12rem] hover:bg-orange-400 "
           onClick={handleSubmit}
         >
           Join

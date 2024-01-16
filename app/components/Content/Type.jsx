@@ -1,21 +1,23 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 
-function Type() {
+function Type({className}) {
   return (
-    <Typewriter
-      options={{
-        strings: [
-          `For the Developers`,
-          "To the Developers",
-          "By the Developers",
-        ],
-        autoStart: true,
-        typeSpeed: 10,
-        loop: true,
-        deleteSpeed: 69,
-      }}
-    />
+    <div className={`${className}`}>
+      <Typewriter
+        options={{
+          strings: [
+            `For the Developers`,
+            "To the Developers",
+            "By the Developers",
+          ],
+          autoStart: true,
+          typeSpeed: 7,
+          loop: true,
+          deleteSpeed: 69,
+        }}
+      />
+    </div>
   );
 }
 

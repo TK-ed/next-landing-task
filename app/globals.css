@@ -8,6 +8,7 @@
   --text: white;
   --textSoft: #e5e5e5;
   --btn: #3673fd;
+  
 }
 
 * {
@@ -19,6 +20,7 @@
 body {
   background-color: var(--bg);
   color: var(--text);
+  /* background-image: radial-gradient(circle, #051937, #2d3b59, #53617d, #7c89a2, #a7b4c9); */
 }
 
 .background {
