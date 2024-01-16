@@ -18,10 +18,12 @@ const Navbar = () => {
             <a className="mr-5 hover:text-gray-900">About</a>
             <a className="mr-5 hover:text-gray-900">Careers</a>*/}
           </nav>
+          <Link href={'/login'}>
           <button className="inline-flex items-center px-3 py-1 mt-4 text-base border-0 rounded focus:outline-none hover:bg-[var(--bgSoft)] md:mt-0 hover:text-orange-500">
             <FaAngleRight size={24} />
             Login
           </button>
+          </Link>
         </div>
       </header>
     </>
